@@ -1,6 +1,8 @@
 # materialDeEstudo-java
-Repositório com exercícios de fixação para estudo.
-Os assuntos contidos nesse material são:
+
+Repositório com exercícios de fixação para estudo de **Java**.
+Os assuntos contidos nesse **material** são:
+
 ° Arrays;
 
 ° Equals;
