@@ -1,5 +1,5 @@
 # materialDeEstudo-java
-Repositório com exercícios de fixação para estudo.
+<title> Repositório com exercícios de fixação para estudo. </title>
 Os assuntos contidos nesse material são:
 ° Arrays;
 ° Equals;
