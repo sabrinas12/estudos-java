@@ -1,4 +1,4 @@
-# materialDeEstudo-java
+# Material de Estudo - Java
 
 Repositório com exercícios de fixação para estudo de **Java**.
 Os assuntos contidos nesse **material** são:
@@ -11,4 +11,6 @@ Os assuntos contidos nesse **material** são:
 
 ° Conversão;
 
-° Atribuição de Classes.
+° Atribuição de Classes;
+
+° Herança.
