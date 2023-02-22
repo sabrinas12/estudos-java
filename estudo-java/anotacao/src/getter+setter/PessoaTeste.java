@@ -1,4 +1,4 @@
-package oo.encapsulamento;
+package getter+setter;
 
 public class PessoaTeste {
 
