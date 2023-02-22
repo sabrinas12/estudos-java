@@ -1,4 +1,4 @@
-package exercicios;
+package arrays;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class Arrays {
 		
 	Scanner entrada = new Scanner(System.in);
 	
-//	CriaÁ„o de um cÛdigo que realiza o c·lculo da mÈdia dos alunos utilizando arrays e laÁos de repetiÁ„o.
+//	Cria√ß√£o de um c√≥digo que realiza o c√°lculo da m√©dia dos alunos utilizando arrays e la√ßos de repeti√ß√£o.
 	
 	double [] notaAluno = new double[3];
 	
@@ -21,7 +21,7 @@ public class Arrays {
 	System.out.println("Digite a terceira nota: ");
 	notaAluno[2] = entrada.nextDouble();
 	
-//	C·lculo da mÈdia com utilizaÁ„o o laÁo de repertiÁ„o ForEach
+//	C√°lculo da m√©dia com utiliza√ß√£o o la√ßo de reperti√ß√£o ForEach
 	
 	double totalNotas = 0;
 	for(double notas: notaAluno) {
@@ -30,14 +30,14 @@ public class Arrays {
 	}
 	
 	double mediaFinal = totalNotas / notaAluno.length;
-	System.out.println("MÈdia do Aluno: " + mediaFinal);
+	System.out.println("M√©dia do Aluno: " + mediaFinal);
 	
-//	Indicador de aprovaÁ„o (mÈtodo if/else)
+//	Indicador de aprova√ß√£o (m√©todo if/else)
 	
 	if(mediaFinal >= 6) {
-		System.out.println("A mÈdia final do aluno È: " + mediaFinal + ". O aluno est· aprovado nessa disciplina");
+		System.out.println("A m√©dia final do aluno √©: " + mediaFinal + ". O aluno est√° aprovado nessa disciplina");
 	} else {
-		System.out.println("A mÈdia final do aluno È: " + mediaFinal + ". O aluno est· reprovado nessa disciplina");
+		System.out.println("A m√©dia final do aluno √©: " + mediaFinal + ". O aluno est√° reprovado nessa disciplina");
 	}
 	
 	entrada.close();
