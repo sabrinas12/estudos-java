@@ -1,4 +1,4 @@
-package oo.heranca.desafio;
+package heranÃ§a;
 
 public class TesteCarro {
 	
@@ -37,7 +37,7 @@ public class TesteCarro {
 	opala.frear(); // 10
 	opala.frear(); // 05
 	opala.frear(); // 00
-	opala.frear(); // 00 --> Abaixo de zero, o valor não irá diminuir devido ao método if criado
+	opala.frear(); // 00 --> Abaixo de zero, o valor nÄƒo irÃ¡ diminuir devido ao mÃ©todo if criado
 	opala.frear(); // 00
 	
 	System.out.println(opala.velocidadeAtual);
