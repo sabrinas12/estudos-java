@@ -1,4 +1,4 @@
-package oo.polimorfismo;
+package polimorfismo;
 
 public class Arroz extends Comida {
 	
