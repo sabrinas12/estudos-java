@@ -1,4 +1,4 @@
-package oo.encapsulamento;
+package getter+setter;
 
 public class Pessoa {
 	
@@ -48,7 +48,7 @@ public class Pessoa {
 	}
 		
 		public String toString() {
-			return "Ol· eu sou o " + getNome()
+			return "Ol√° eu sou o " + getNome()
 			+ " e tenho " + getIdade() + " anos.";
 		}
 	}
