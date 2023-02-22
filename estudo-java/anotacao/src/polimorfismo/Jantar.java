@@ -1,10 +1,10 @@
-package oo.polimorfismo;
+package polimorfismo;
 
 public class Jantar {
 
 	public static void main(String[] args) {
-//		AplicaÁ„o de Polimorfismo Din‚mico;
-//		acontece na heranÁa, quando a subclasse sobrepıe o mÈtodo original.
+//		Aplica√ß√£o de Polimorfismo Din√¢mico;
+//		acontece na heran√ßa, quando a subclasse sobrep√µe o m√©todo original.
 		
 		Pessoa convidado = new Pessoa(99.65);
 		
