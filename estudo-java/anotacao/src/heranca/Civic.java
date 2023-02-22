@@ -1,9 +1,9 @@
-package oo.heranca.desafio;
+package heranca;
 
 public class Civic extends Carro {
 	
-//	super: usada pra referenciar uma classe pai da classe em quest„o;
-//	No caso desse exercÌcio, a classe pai È a classe Carro. 
+//	super: usada pra referenciar uma classe pai da classe em quest√£o;
+//	No caso desse exerc√≠cio, a classe pai √© a classe Carro. 
 
 	boolean acelerar() {
 		boolean acelera1 = super.acelerar();
