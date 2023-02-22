@@ -1,11 +1,11 @@
-package exercicios;
+package conversao;
 
 public class ConversaoNumeroString {
 
 	public static void main(String[] args) {
 		
-//		MÈtodos que convertem um n˙mero inteiro para String;
-//		O mÈtodo length mostra quantas caracteres est„o contidas na vari·vel.
+//		M√©todos que convertem um n√∫mero inteiro para String;
+//		O m√©todo length mostra quantas caracteres est√£o contidas na vari√°vel.
 	
 		Integer num1 = 100;
 		System.out.println(num1.toString().length());
@@ -13,7 +13,7 @@ public class ConversaoNumeroString {
 		Integer num2 = 1000;
 		System.out.println(Integer.toString(num2).length());
 		
-//		MÈtodo de concatenaÁ„o que auxilia na convers„o de inteiro para String.
+//		M√©todo de concatena√ß√£o que auxilia na convers√£o de inteiro para String.
 		System.out.println(("" + num1).length());
 		System.out.println(("" + num2).length());
 		
