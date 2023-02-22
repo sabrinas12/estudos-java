@@ -1,4 +1,4 @@
-package exercicios;
+package equals;
 
 import java.util.Scanner;
 
@@ -8,32 +8,32 @@ public class Equals {
 		
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.println("Digite o primeiro n˙mero: ");
+		System.out.println("Digite o primeiro n√∫mero: ");
 		double num1 = entrada.nextDouble();
 		
-		System.out.println("Digite o segundo n˙mero: ");
+		System.out.println("Digite o segundo n√∫mero: ");
 		double num2 = entrada.nextDouble();
 		
 		System.out.println("Digite o operador: ");
 		String operador = entrada.next();
 		
-//		LÛgica
-//		Nesse exercicio, o ser· utilizado o mÈtodo equals para definir o tipo de operador que o usu·rio deseja.
+//		L√≥gica
+//		Nesse exercicio, o ser√° utilizado o m√©todo equals para definir o tipo de operador que o usu√°rio deseja.
 		
 		if(operador.equals("+")) {
-			System.out.println("O resultado da soma È: " + (num1 + num2));
+			System.out.println("O resultado da soma √©: " + (num1 + num2));
 			
 		} else if (operador.equals("-")) {
-			System.out.println("O resultado da subtraÁ„o È: " + (num1 - num2));
+			System.out.println("O resultado da subtra√ß√£o √©: " + (num1 - num2));
 			
 		} else if (operador.equals("*")) {
-			System.out.println("O resultado da multiplicaÁ„o È: "+ (num1 * num2));
+			System.out.println("O resultado da multiplica√ß√£o √©: "+ (num1 * num2));
 			
 		} else if (operador.equals("/")) {
-			System.out.println("O resultado da divis„o È: " + (num1 / num2));
+			System.out.println("O resultado da divis√£o √©: " + (num1 / num2));
 				
 		} else if (operador.equals("%")) {
-			System.out.println("O resto da divis„o dos valores "+ num1 + " e " + num2 + " È: " + (num1 % num2));
+			System.out.println("O resto da divis√£o dos valores "+ num1 + " e " + num2 + " √©: " + (num1 % num2));
 			
 		}
 		
