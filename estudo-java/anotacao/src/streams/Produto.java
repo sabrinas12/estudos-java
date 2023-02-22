@@ -1,4 +1,4 @@
-package exercicio;
+package streams;
 
 public class Produto {
 
