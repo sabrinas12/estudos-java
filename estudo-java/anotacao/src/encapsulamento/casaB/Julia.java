@@ -1,4 +1,4 @@
-package oo.encapsulamento.casaB;
+package encapsulamento.casaB;
 
 import oo.encapsulamento.casaA.Ana;
 
