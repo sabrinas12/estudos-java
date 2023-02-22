@@ -1,4 +1,4 @@
-package excecao;
+package tratamento de erros;
 
 import java.util.Scanner;
 
@@ -12,17 +12,17 @@ public class TratamentoErros {
 		double nota1 = entrada.nextDouble();
 		
 		if(nota1 < 0) {
-			throw new RuntimeException("O número digitado é menor do que 0. ");
+			throw new RuntimeException("O nÃºmero digitado Ã© menor do que 0. ");
 		}
 		
 		System.out.println("Digite a segunda nota: ");
 		double nota2 = entrada.nextDouble();
 		
 		if(nota2 < 0) {
-			throw new RuntimeException("O número digitado é menor do que 0. ");
+			throw new RuntimeException("O nÃºmero digitado Ã© menor do que 0. ");
 		} else {
 			double media = (nota1 + nota2) / 2;
-		System.out.println("Média do aluno: " + media);		
+		System.out.println("MÃ©dia do aluno: " + media);		
 	}
 		
 		entrada.close();
