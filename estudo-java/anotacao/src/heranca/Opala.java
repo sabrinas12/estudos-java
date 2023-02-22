@@ -1,4 +1,4 @@
-package oo.heranca.desafio;
+package heranca;
 
 public class Opala extends Carro {
 
