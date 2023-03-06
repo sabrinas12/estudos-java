@@ -10,10 +10,6 @@ public class Cadastro {
 		this.nome = nome;
 		this.nascimento = nascimento;
 		this.maiorDeIdade = maiorDeIdade;
-		
-	}
 	
-	public static boolean MaiorDeIdade(boolean Adulto) {
-	    return Adulto;
 	}
 }
