@@ -15,6 +15,8 @@ public class Pessoa {
 		this.nome = nome;
 	}
 	
+// Parâmetro criado para recebimento das informações
+	
 	public Pessoa(String nome, String sobrenome, int idade) {
 		setNome(nome);
 		setSobrenome(sobrenome);
